@@ -2,6 +2,14 @@
 
 A C++ program that converts a matrix into Reduced Row Echelon Form (RREF) using the [Gauss–Jordan elimination method](https://en.wikipedia.org/wiki/Gaussian_elimination).
 
+## Run
+
+```bash
+g++ -std=c++17 rref.cpp -o rref_readable
+./rref_readable
+```
+When the program runs you will be prompted for the number of columns and rows of your input matrix, after which the program will do the row calculations and print the RREF.
+
 ## Method
 
 The program follows these steps:
@@ -13,14 +21,6 @@ The program follows these steps:
 5. Move to the next pivot row and repeat.
 
 The program uses the double datatype to represent matrix entries and a tolerance of 1e-9 (small) to handle the floating-point rounding errors.
-
-## Run
-
-```bash
-g++ -std=c++17 rref.cpp -o rref_readable
-./rref_readable
-```
-When the program runs you will be prompted for the number of columns and rows of your input matrix, after which the program will do the row calculations and print the RREF.
 
 ## License
 
