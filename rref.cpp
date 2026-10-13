@@ -7,7 +7,7 @@ gauss jordan method
 4. subtract multiples of it from every other row so the rest of the column becomes 0
 5. lead + 1 (move onto next potential pivot point)
 
-compile: g++ -std=c++17 rref.cpp
+compile: g++ rref.cpp
 run: ./rref (inside dir)
 */
 
