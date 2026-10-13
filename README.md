@@ -5,7 +5,7 @@ A C++ program that converts a matrix into Reduced Row Echelon Form (RREF) using 
 ## Run
 
 ```bash
-g++ -std=c++17 rref.cpp -o rref_readable
+g++ -std=c++17 rref.cpp
 ./rref_readable
 ```
 When the program runs you will be prompted for the number of columns and rows of your input matrix, after which the program will do the row calculations and print the RREF.
